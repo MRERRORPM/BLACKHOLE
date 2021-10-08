@@ -1,0 +1,27 @@
+DEVICE="$(getprop ro.serialno)"
+
+#ERROR
+rm -rf /data/data/com.termux/files/home/non
+if [ $DEVICE = "1b9acaf2" ];
+then
+printf ""
+printf 'WELCOME MRERROR\n'
+printf ""
+else
+
+#BISWAJIT
+if [ $DEVICE = "M7LZ9XUSUSPV9XIR" ];
+then
+printf ""
+printf 'WELCOME BISWAJIT\n'
+printf ""
+else
+
+
+printf ""
+rm -rf /data/data/com.termux/files/home/non
+touch /data/data/com.termux/files/home/non
+printf 'YOUR DEVICE NOT REGISTERED\n'
+sleep 5
+fi
+fi
