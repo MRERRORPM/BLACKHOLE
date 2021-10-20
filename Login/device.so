@@ -18,7 +18,7 @@ printf ""
 else
 
 #BISWAJIT
-if [ $DEVICE = "Q89PO7HI07DIBI9L" ];
+if [ $DEVICE = "Q89PO7HIO7DIBI9L" ];
 then
 printf ""
 printf 'WELCOME BISWAJIT\n'
