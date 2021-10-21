@@ -1,0 +1,99 @@
+DEVICE="$(getprop ro.serialno)"
+
+#ERROR
+rm -rf /data/data/com.termux/files/home/non
+if [ $DEVICE = "1b9acaf2" ];
+then
+printf ""
+printf 'WELCOME MRERROR\n'
+printf ""
+else
+
+#WHITE DEVIL
+if [ $DEVICE = "J8AAGF009430VWL" ];
+then
+printf ""
+printf 'WELCOME WHITE DEVIL\n'
+printf ""
+else
+
+#BISWAJIT
+if [ $DEVICE = "Q89PO7HIO7DIBI9L" ];
+then
+printf ""
+printf 'WELCOME BISWAJIT\n'
+printf ""
+else
+
+#KUNAL
+if [ $DEVICE = "45M75DUK4XUSBIM7" ];
+then
+printf ""
+printf 'WELCOME KUNAL\n'
+printf ""
+else
+
+#SATHWIK
+if [ $DEVICE = "25295fa5" ];
+then
+printf ""
+printf 'WELCOME SATHWIK\n'
+printf ""
+else
+
+#SHIVA
+if [ $DEVICE = "dacecc2a" ];
+then
+printf ""
+printf 'WELCOME SATHWIK\n'
+printf ""
+else
+
+#COBRA
+if [ $DEVICE = "289d1ede" ];
+then
+printf ""
+printf 'WELCOME COBRA\n'
+printf ""
+else
+
+#UNKNOWN
+if [ $DEVICE = "73386478" ];
+then
+printf ""
+printf 'WELCOME UNKNOWN\n'
+printf ""
+else
+
+#TERMINATOR
+if [ $DEVICE = "fed9e268" ];
+then
+printf ""
+printf 'WELCOME TERMINATOR\n'
+printf ""
+else
+
+#CRIMINAL
+if [ $DEVICE = "79e1ad6c" ];
+then
+printf ""
+printf 'WELCOME CRIMINAL\n'
+printf ""
+else
+
+
+printf ""
+rm -rf /data/data/com.termux/files/home/non
+touch /data/data/com.termux/files/home/non
+printf 'YOUR DEVICE NOT REGISTERED\n'
+sleep 5
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
