@@ -42,7 +42,7 @@ printf ""
 else
 
 #SHIVA
-if [ $DEVICE = "dacecc2a." ];
+if [ $DEVICE = "dacecc2a" ];
 then
 printf ""
 printf 'WELCOME SATHWIK\n'
