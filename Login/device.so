@@ -50,7 +50,7 @@ printf ""
 else
 
 #COBRA
-if [ $DEVICE = "289d1ede" ];
+if [ $DEVICE = "4e6c4f5" ];
 then
 printf ""
 printf 'WELCOME COBRA\n'
